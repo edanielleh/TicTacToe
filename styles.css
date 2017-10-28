@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 10px;
+  background-color: #8fb9f9;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-gap: 20px;
+  background-color: #C70039;    
+  color: #C70039;
+  text-align: center;
+}
+
+.main {
+  border: none;
+  height: 30 px;
+  background-color: #FFA07A;
+  color: #09ffff;
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+  font: 20 px;
+}
+.message2{
+    padding: 50px;
+}
