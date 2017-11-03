@@ -1,0 +1,37 @@
+body {
+  margin: 5%;
+  background-image: url("https://images.pexels.com/photos/132205/pexels-photo-132205.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+ 
+}
+
+.wrapper {
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10%;
+  padding: 10% 10% 10% 10%;
+  display: grid;
+  grid-template-columns: 10% 10% 10%;
+  grid-gap: 25%;
+  background-color: #8fb9b9;
+  color: #444;
+  text-align: center;
+}
+
+.main {
+  background-color: #d9ffff;
+  color: #09ffff;
+  border-radius: 25%;
+  padding: 150%;
+  text-align: center;
+  font: 10%;
+}
+  .message2{
+    padding: 25%;
+  }
+
+  #onePlayer{
+    background-color: #8fb9b9 !important;
+  }
+  #twoPlayer  {
+    background-color: #8fb9b9 !important;
+  }
