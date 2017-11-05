@@ -1,37 +1,61 @@
 body {
-  margin: 5%;
-  background-image: url("https://images.pexels.com/photos/132205/pexels-photo-132205.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
- 
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+  ),
+  url("../resources/wood_background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
+  width: 100%;
   border-style: solid;
   border-width: 10px;
   border-radius: 10%;
+  margin-top: 5%;
   padding: 10% 10% 10% 10%;
-  display: grid;
-  grid-template-columns: 10% 10% 10%;
-  grid-gap: 25%;
   background-color: #8fb9b9;
   color: #444;
   text-align: center;
 }
 
-.main {
+.colButton {
   background-color: #d9ffff;
-  color: #09ffff;
+  color: transparent;
   border-radius: 25%;
-  padding: 150%;
   text-align: center;
-  font: 10%;
+  height: 50px;
+  width: 25%;
 }
-  .message2{
-    padding: 25%;
-  }
 
-  #onePlayer{
-    background-color: #8fb9b9 !important;
-  }
-  #twoPlayer  {
-    background-color: #8fb9b9 !important;
-  }
+#onePlayer{
+  background-color: #8fb9b9 !important;
+}
+#twoPlayer  {
+  background-color: #8fb9b9 !important;
+}
+.row {
+  max-width: 100%;
+}
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.top-btns {
+  padding-top: 15%;
+  min-height: 97vh;
+}
+
+html {
+  height: 100%;
+}
+footer {
+  background-color: black;
+}
+
+p {
+  margin: 0 0 0;
+}
+
